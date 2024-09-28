@@ -1,0 +1,70 @@
+@DacmApi_HostAddress = https://localhost:32769
+
+GET {{DacmApi_HostAddress}}/Api/Asset/Metadata/ASSET001
+Accept: application/json
+
+###
+
+GET {{DacmApi_HostAddress}}/Api/Asset/Metadata/ASSETTEST001
+Accept: application/json
+
+###
+
+POST {{DacmApi_HostAddress}}/Api/Asset/Metadata/
+Content-Type: application/json
+Accept: */*
+
+{
+  "assetId": "ASSETTEST001",
+  "name": "Test name",
+  "description": "Test description",
+  "fileFormat": "Test fileFormat",
+  "fileSize": 123,
+  "createdBy": "Test createdBy",
+  "versionNumber": "1.1",
+  "timestamp": "2024-09-29T11:00:00Z",
+  "userName": "Test userName",
+  "comments": "Test comments",
+  "path": "Test path",
+  "pathPreview": "test pathPreview",
+  "status": 1
+}
+
+###
+
+PUT {{DacmApi_HostAddress}}/Api/Asset/Metadata/
+Content-Type: application/json
+Accept: */*
+
+{
+  "assetId": "ASSETTEST001",
+  "name": "Test name2",
+  "description": "Test description2",
+  "fileFormat": "Test fileFormat2",
+  "fileSize": 1234,
+  "createdBy": "Test createdBy2",
+  "versionNumber": "1.2",
+  "timestamp": "2024-09-29T12:00:00Z",
+  "userName": "Test userName2",
+  "comments": "Test comments2",
+  "path": "Test path2",
+  "pathPreview": "test pathPreview2",
+  "status": 0
+}
+
+###
+
+DELETE {{DacmApi_HostAddress}}/Api/Asset/Metadata/ASSETTEST001
+Accept: */*
+
+###
+
+GET {{DacmApi_HostAddress}}/Api/Asset/ASSET009/Url
+Accept: application/json
+
+###
+
+GET {{DacmApi_HostAddress}}/Api/Order/Metadata/ORD123456789
+Accept: application/json
+
+###

@@ -1,0 +1,69 @@
+[
+	{
+		"briefId": "BRIEF001",
+		"assetIds":
+		[
+			"ASSET001",
+			"ASSET002"
+		]
+	},
+	{
+		"briefId": "BRIEF002",
+		"assetIds":
+		[
+			"ASSET003"
+		]
+	},
+	{
+		"briefId": "BRIEF003",
+		"assetIds":
+		[
+			"ASSET004",
+			"ASSET005",
+			"ASSET006"
+		]
+	},
+	{
+		"briefId": "BRIEF004",
+		"assetIds":
+		[
+			"ASSET007"
+		]
+	},
+	{
+		"briefId": "BRIEF005",
+		"assetIds":
+		[
+		]
+	},
+	{
+		"briefId": "BRIEF006",
+		"assetIds":
+		[
+		]
+	},
+	{
+		"briefId": "BRIEF007",
+		"assetIds":
+		[
+		]
+	},
+	{
+		"briefId": "BRIEF008",
+		"assetIds":
+		[
+		]
+	},
+	{
+		"briefId": "BRIEF009",
+		"assetIds":
+		[
+		]
+	},
+	{
+		"briefId": "BRIEF010",
+		"assetIds":
+		[
+		]
+	}
+]

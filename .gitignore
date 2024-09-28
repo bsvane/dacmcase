@@ -1,0 +1,5 @@
+.vs
+obj
+bin
+/DacmApi/appsettings.Development.json
+/DacmApi/DacmApi.csproj.user

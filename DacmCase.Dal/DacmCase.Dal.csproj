@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\AssetMetadata.json" />
+    <None Remove="Resources\BriefingAssetMetadata.json" />
+    <None Remove="Resources\BriefingMetadata.json" />
+    <None Remove="Resources\ContentDistributionMetadata.json" />
+    <None Remove="Resources\OrderListMetadata.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BriefingAssetMetadata.json" />
+    <EmbeddedResource Include="Resources\AssetMetadata.json" />
+    <EmbeddedResource Include="Resources\BriefingMetadata.json" />
+    <EmbeddedResource Include="Resources\ContentDistributionMetadata.json" />
+    <EmbeddedResource Include="Resources\OrderListMetadata.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
