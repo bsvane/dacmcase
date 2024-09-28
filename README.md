@@ -1,4 +1,4 @@
-# DacmCase
+# DACM Case
 
 This example illustrates the basic layout of an application accessing digital assets through a REST API.
 
