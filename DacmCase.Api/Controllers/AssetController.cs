@@ -1,7 +1,7 @@
 using DacmCase.Dal.Exceptions;
-using DacmCase.Domain.Assets;
 using DacmCase.Domain.Assets.Handlers;
 using Microsoft.AspNetCore.Mvc;
+using DacmCase.Api.Mapping.Assets;
 
 namespace DacmCase.Api.Controllers;
 

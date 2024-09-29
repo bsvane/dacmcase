@@ -4,7 +4,7 @@ public static class AssetsSetup
 {
 	public static IServiceCollection AddAssetServices( this IServiceCollection services )
 	{
-		services.AddSingleton<Domain.Assets.IAssetMapper, Domain.Assets.Mapper>();
+		services.AddSingleton<Api.Mapping.Assets.IAssetMapper, Api.Mapping.Assets.Mapper>();
 
 		services.AddScoped<Domain.Assets.Handlers.GetAssetUrlHandler>();
 

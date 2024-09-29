@@ -1,4 +1,4 @@
-﻿namespace DacmCase.Domain.Orders;
+﻿namespace DacmCase.Api.Mapping.Orders;
 
 public interface IOrderMapper
 {

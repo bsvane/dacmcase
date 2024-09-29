@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DacmCase.Api.Contracts\DacmCase.Api.Contracts.csproj" />
+    <ProjectReference Include="..\DacmCase.Api.Mapping\DacmCase.Api.Mapping.csproj" />
     <ProjectReference Include="..\DacmCase.Dal\DacmCase.Dal.csproj" />
     <ProjectReference Include="..\DacmCase.Domain\DacmCase.Domain.csproj" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿namespace DacmCase.Domain.Tests.Orders;
+﻿namespace DacmCase.Api.Mapping.Tests.Orders;
 
 public class MapperTests
 {

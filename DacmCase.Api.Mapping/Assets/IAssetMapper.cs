@@ -1,4 +1,4 @@
-﻿namespace DacmCase.Domain.Assets;
+﻿namespace DacmCase.Api.Mapping.Assets;
 
 public interface IAssetMapper
 {

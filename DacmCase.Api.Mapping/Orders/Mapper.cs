@@ -1,6 +1,6 @@
-﻿using DacmCase.Domain.Assets;
+﻿using DacmCase.Api.Mapping.Assets;
 
-namespace DacmCase.Domain.Orders;
+namespace DacmCase.Api.Mapping.Orders;
 
 public class Mapper : IOrderMapper
 {

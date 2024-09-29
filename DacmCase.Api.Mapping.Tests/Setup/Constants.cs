@@ -1,4 +1,4 @@
-﻿namespace DacmCase.Domain.Tests.Setup;
+﻿namespace DacmCase.Api.Mapping.Tests.Setup;
 
 internal class Constants
 {

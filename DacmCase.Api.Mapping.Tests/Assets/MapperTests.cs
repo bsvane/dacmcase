@@ -1,6 +1,6 @@
 ﻿using DacmCase.Api.Contracts.Assets;
 
-namespace DacmCase.Domain.Tests.Assets;
+namespace DacmCase.Api.Mapping.Tests.Assets;
 
 public class MapperTests
 {
@@ -9,7 +9,7 @@ public class MapperTests
 	public void Should_Map_AssetMetadata_ToContract( Dal.Models.AssetMetadata assetMetadata )
 	{
 		// Arrange
-		var mapper = new Domain.Assets.Mapper();
+		var mapper = new DacmCase.Api.Mapping.Assets.Mapper();
 
 		// Act
 		var result = mapper.Map( assetMetadata );
@@ -49,7 +49,7 @@ public class MapperTests
 		// Arrange
 		assetMetadata.fileSize = fileSize.ToString();
 
-		var mapper = new Domain.Assets.Mapper();
+		var mapper = new DacmCase.Api.Mapping.Assets.Mapper();
 
 		// Act
 		var result = mapper.Map( assetMetadata );
@@ -66,7 +66,7 @@ public class MapperTests
 		// Arrange
 		assetMetadata.VersionNumber = $"{majorVersion}.{minorVersion}";
 
-		var mapper = new Domain.Assets.Mapper();
+		var mapper = new DacmCase.Api.Mapping.Assets.Mapper();
 
 		// Act
 		var result = mapper.Map( assetMetadata );
@@ -83,7 +83,7 @@ public class MapperTests
 		// Arrange
 		assetMetadata.Status = assetStatus.ToString();
 
-		var mapper = new Domain.Assets.Mapper();
+		var mapper = new DacmCase.Api.Mapping.Assets.Mapper();
 
 		// Act
 		var result = mapper.Map( assetMetadata );
@@ -100,7 +100,7 @@ public class MapperTests
 		// Arrange
 		assetMetadata.fileFormat = fileFormat;
 
-		var mapper = new Domain.Assets.Mapper();
+		var mapper = new DacmCase.Api.Mapping.Assets.Mapper();
 
 		// Act
 		var result = mapper.Map( assetMetadata );
@@ -115,7 +115,7 @@ public class MapperTests
 	public void Should_Map_AssetMetadata_FromContract( Api.Contracts.Assets.AssetMetadata assetMetadata )
 	{
 		// Arrange
-		var mapper = new Domain.Assets.Mapper();
+		var mapper = new DacmCase.Api.Mapping.Assets.Mapper();
 
 		// Act
 		var result = mapper.Map( assetMetadata );

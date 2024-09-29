@@ -4,5 +4,5 @@ public class DeleteAssetMetadataHandlerTests
 {
 	// Asset handler tests goes here...
 
-	// Look at /Assets/MapperTests.cs for examples
+	// Look at /DacmCase.Api.Mapping.Tests/Assets/MapperTests.cs for examples
 }

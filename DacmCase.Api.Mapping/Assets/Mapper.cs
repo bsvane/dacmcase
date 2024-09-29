@@ -1,6 +1,4 @@
-﻿using DacmCase.Api.Contracts.Assets;
-
-namespace DacmCase.Domain.Assets;
+﻿namespace DacmCase.Api.Mapping.Assets;
 
 public class Mapper : IAssetMapper
 {
@@ -14,8 +12,8 @@ public class Mapper : IAssetMapper
 			fileSize = tmpFileSize;
 		}
 
-		AssetStatus? status = null;
-		if ( Enum.TryParse<AssetStatus>( assetMetadata.Status, out var tmpStatus ) )
+		Api.Contracts.Assets.AssetStatus? status = null;
+		if ( Enum.TryParse<Api.Contracts.Assets.AssetStatus>( assetMetadata.Status, out var tmpStatus ) )
 		{
 			status = tmpStatus;
 		}
@@ -36,7 +34,7 @@ public class Mapper : IAssetMapper
 			Comments = assetMetadata.Comments,
 			Path = assetMetadata.path,
 			PathPreview = assetMetadata.Preview,
-			Status = status != AssetStatus.Unknown ? status : null,
+			Status = status != Api.Contracts.Assets.AssetStatus.Unknown ? status : null,
 		};
 	}
 
@@ -63,7 +61,7 @@ public class Mapper : IAssetMapper
 			Comments = assetMetadata.Comments,
 			path = assetMetadata.Path,
 			Preview = assetMetadata.PathPreview,
-			Status = assetMetadata.Status.HasValue && assetMetadata.Status != AssetStatus.Unknown ? assetMetadata.Status.Value.ToString() : ToBeDefinedPlaceholder,
+			Status = assetMetadata.Status.HasValue && assetMetadata.Status != Api.Contracts.Assets.AssetStatus.Unknown ? assetMetadata.Status.Value.ToString() : ToBeDefinedPlaceholder,
 		};
 	}
 }
