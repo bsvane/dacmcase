@@ -17,6 +17,8 @@ Microsoft Visual Studio Solution containing the following .Net 8 projects, writt
 	* .http file for easy access
 * DacmCase.Api.Contracts - Library project containing the public contracts for the API
 * DacmCase.Api.IntegrationTests - Unit test (XUnit) project. Contains integration tests for the API
+* DacmCase.Api.Mapping - Library project for the API contract mapping
+* DacmCase.Api.Mapping.Tests - Unit test (XUnit) project. Contains unit tests for the API contract mapping layer
 * DacmCase.Dal - Data Access Layer. Contains a simulated database
 * DacmCase.Domain - Library project for the Domain Layer
 * DacmCase.Domain.Tests - Unit test (XUnit) project. Contains unit tests for the Domain layer
