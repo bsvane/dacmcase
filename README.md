@@ -2,7 +2,7 @@
 
 This example illustrates the basic layout of an application accessing digital assets through a REST API.
 
-Presentation: [https://docs.google.com/presentation/d/1riD-8N444RYFsHbou4BXgd3jWb4ylE8KDEXDi8kRd54/edit?usp=sharing]https://docs.google.com/presentation/d/1riD-8N444RYFsHbou4BXgd3jWb4ylE8KDEXDi8kRd54/edit?usp=sharing
+Presentation: [https://docs.google.com/presentation/d/1riD-8N444RYFsHbou4BXgd3jWb4ylE8KDEXDi8kRd54/edit?usp=sharing]
 
 ## Comments
 
